@@ -18,7 +18,7 @@ const Headermain = () => {
         <div className="container p-4  mb-xl-5">
           <div className="row z-20 align-items-center ">
             <div className="col-12 col-lg-2 col-md-12 text-lg-start text-center">
-              <p className="text-white fw-medium text-4xl font-medium">
+              <p className="text-white fw-medium text-4xl font-medium mb-1">
                 Starda
               </p>
             </div>
