@@ -15,8 +15,8 @@ const Headermain = () => {
   return (
     <div>
       <div className={`container-fluid headermain ${scroll ? "active" : ""}`}>
-        <div className="container p-4 mb-xl-5">
-          <div className="row z-20 align-items-center gy-3">
+        <div className="container p-4  mb-xl-5">
+          <div className="row z-20 align-items-center ">
             <div className="col-12 col-lg-2 col-md-12 text-lg-start text-center">
               <p className="text-white fw-medium text-4xl font-medium">
                 Starda
@@ -88,7 +88,7 @@ const Headermain = () => {
                     width={25}
                     height={25}
                     fill="currentColor"
-                    className="bi bi-chevron-bar-up mx-auto"
+                    className="bi bi-chevron-bar-up mx-auto mb-3"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -102,7 +102,7 @@ const Headermain = () => {
                     width={25}
                     height={25}
                     fill="currentColor"
-                    className="bi bi-chevron-bar-down mx-auto"
+                    className="bi bi-chevron-bar-down mx-auto mb-3"
                     viewBox="0 0 16 16"
                   >
                     {" "}
