@@ -4,8 +4,8 @@ import { imagedata } from "./Productdata";
 const Section5 = () => {
   return (
     <div>
-      <div className="container my-5 grhgtyy">
-        <div className="row">
+      <div className="container my-5 ">
+        <div className="row px-1">
           {imagedata.map((valu, inde) => {
             return (
               <div className="col-lg-3 col-md-4 col-sm-6 col-12 border flex justify-content-center">

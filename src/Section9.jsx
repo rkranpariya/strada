@@ -16,7 +16,7 @@ const Section9 = () => {
           <div className="row gy-3">
             {teamdata.map((valu, inde) => {
               return (
-                <div className="col-lg-6  p-3">
+                <div className="col-lg-6 col-md-6 col-12  p-3">
                   <div className="p-5 bg-gray-50 rounded-2 border-2 border-gray-300 hover:border-gray-600">
                     <div className="row">
                       <div className="col-lg-3">

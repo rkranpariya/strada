@@ -159,7 +159,7 @@ const Footer = () => {
                 inspiration delivered monthly.
               </p>
             </div>
-            <div className="flex text-gray-500 text-lg-start text-center flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-lg-start align-items-center">
+            <div className="flex text-gray-500 text-lg-start text-center flex-lg-row flex-md-row gap-2 flex-column justify-content-lg-start justify-content-center align-items-lg-start align-items-center">
               <p className="flex gap-2 align-items-center hover:text-green-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
