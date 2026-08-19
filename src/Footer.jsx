@@ -55,9 +55,9 @@ const Footer = () => {
                 hello@designstudio.com
               </p>
             </div>
-            <div className="col-lg-7 col-12 p-5">
+            <div className="col-lg-7 col-12 p-lg-5 p-2">
               <div className="row ps-lg-5">
-                <div className="col-lg-3 col-12 text-lg-start text-center">
+                <div className="col-lg-3 col-md-3 col-12 text-lg-start text-center">
                   <p className="fw-bold">Studio</p>
                   <p className="flex flex-column lh-lg">
                     {" "}
@@ -78,7 +78,7 @@ const Footer = () => {
                     </a>
                   </p>
                 </div>
-                <div className="col-lg-3 col-12 text-lg-start text-center">
+                <div className="col-lg-3 col-12 col-md-3 text-lg-start text-center">
                   <p className="fw-bold">Services</p>
                   <p className="flex flex-column lh-lg">
                     <a href="" className="text-decoration-none text-gray-400!">
@@ -98,7 +98,7 @@ const Footer = () => {
                     </a>{" "}
                   </p>
                 </div>
-                <div className="col-lg-3 col-12 text-lg-start text-center">
+                <div className="col-lg-3 col-12 col-md-3 text-lg-start text-center">
                   <p className="fw-bold">Resources</p>
                   <p className="flex flex-column lh-lg">
                     <a href="" className="text-decoration-none text-gray-400!">
@@ -123,7 +123,7 @@ const Footer = () => {
                     </a>
                   </p>
                 </div>
-                <div className="col-lg-3 col-12 text-lg-start text-center">
+                <div className="col-lg-3 col-12 col-md-3 text-lg-start text-center">
                   <p className="fw-bold">Connect</p>
                   <p className="flex flex-column lh-lg">
                     <a href="" className="text-decoration-none text-gray-400!">
@@ -159,7 +159,7 @@ const Footer = () => {
                 inspiration delivered monthly.
               </p>
             </div>
-            <div className="flex text-gray-500 text-lg-start text-center flex-lg-nowrap flex-wrap justify-content-lg-start justify-content-center">
+            <div className="flex text-gray-500 text-lg-start text-center flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-lg-start align-items-center">
               <p className="flex gap-2 align-items-center hover:text-green-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@ const Footer = () => {
                 </svg>
                 Dribbble
               </p>
-              <p className="flex mx-lg-3 gap-2 align-items-center hover:text-green-600">
+              <p className="flex mx-lg-3 mx-0 gap-2 align-items-center hover:text-green-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
@@ -189,7 +189,7 @@ const Footer = () => {
                 </svg>
                 Behance
               </p>
-              <p className="flex mx-lg-3 gap-2 align-items-center hover:text-green-600">
+              <p className="flex mx-lg-3 mx-0 gap-2 align-items-center hover:text-green-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
@@ -202,7 +202,7 @@ const Footer = () => {
                 </svg>
                 instagram
               </p>
-              <p className="flex gap-2 align-items-center hover:text-green-600 ">
+              <p className="flex gap-2 align-items-center mx-0 hover:text-green-600 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}

@@ -132,13 +132,13 @@ const Section10 = () => {
                 rows={4}
               ></textarea>
             </div>
-            <div className="flex justify-content-lg-between flex-lg-nowrap flex-wrap gap-3">
+            <div className="flex justify-content-lg-between justify-content-center flex-lg-nowrap flex-wrap gap-3">
               <div className="w-lg-50 w-100 text-lg-start text-center">
                 <button className="border border-green-600! text-green-600 fw-bold p-2 w-lg-50 hover:bg-green-700 hover:text-gray-50">
                   Submit
                 </button>
               </div>
-              <div className="flex text-gray-400">
+              <div className="flex text-gray-400 justify-content-center justify-content-lg-end">
               <p className="border-2 text-center p-1 hover:text-green-400">  <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}

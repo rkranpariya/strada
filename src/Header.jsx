@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
       </div> */}
-      <div className="container text-white pt-xxl-5">
+      <div className="container text-white pt-xxl-5 header_sub_s">
        <div className="row">
         <div className="col-lg-6 col-12 text-lg-start text-center">
              <p className='text-green-600 text-uppercase'>limited edition</p>

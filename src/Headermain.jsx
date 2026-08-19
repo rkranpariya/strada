@@ -16,14 +16,14 @@ const Headermain = () => {
     },[]);
   return (
     <div>
-        < div className={`container-fluid headermain ${scroll? "active" : ""}`}>
+        < div className= {`container-fluid headermain ${scroll? "active" : ""}`}>
          <div className="container p-4 mb-xl-5">
         <div className="row z-20 align-items-center gy-3">
             <div className="col-12 col-lg-2 col-md-12 text-lg-start text-center">
                 <p className='text-white fw-medium text-4xl font-medium'>Starda</p>
             </div>
             <div className="col-12 col-lg-7 col-md-12 text-lg-start text-center">
-                <ul className='d-flex justify-between flex-lg-nowrap flex-wrap align-items-center'>
+                <ul className='d-flex justify-between flex-lg-row flex-column align-items-center text-center ps-0'>
                     <li><a href="" className='text-decoration-none text-white fs-6 fw-medium hover:border-b-2 hover:border-b-green-700'>Home</a></li>
                     <li><a href="" className='text-decoration-none text-white fs-6 fw-medium hover:border-b-2  hover:border-b-green-700'>About</a></li>
                     <li><a href="" className='text-decoration-none text-white fs-6 fw-medium hover:border-b-2  hover:border-b-green-700'>Services</a></li>
