@@ -114,7 +114,7 @@ const Headermain = () => {
                 )}
               </button>
             )}
-            <div className="col-12 col-lg-3 col-md-12 text-lg-end text-center">
+            <div className="col-12 col-lg-3 col-md-12 text-lg-end text-center mt-1">
               <a
                 href=""
                 className="text-decoration-none text-white bg-green-600 p-2 rounded-2"
