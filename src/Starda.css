@@ -39,7 +39,7 @@
 }
 @media (max-width: 992px) {
   .headermain.active {
-    height: 340px;
+    height: auto;
   }
 }
 .header-sub {
